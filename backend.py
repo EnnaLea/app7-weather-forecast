@@ -23,4 +23,4 @@ def get_data(place, forcast_days=None, kind=None):
 
 
 if __name__ == "__main__":
-    print(get_data(place="Tokyo"))
+    print(get_data(place="Tokyo", forcast_days=3, kind="Temperature"))
